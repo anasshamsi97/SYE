@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        tools:ignore="HardcodedText"
+        android:layout_height="match_parent"
+        android:background="#EFF1E6"
+        tools:context=".SplashActivity" android:orientation="vertical">
+
+    <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:src="@drawable/sye_logo"
+            android:layout_height="300dp"/>
+
+
+    <TextView
+            android:text="Embrace Natural Light"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginEnd="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+                android:id="@+id/login"
+                android:text="login"
+                android:backgroundTint="#8dc550"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:id="@+id/register"
+                android:text="register"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="#fd6114"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:text="connect with others"
+                android:layout_marginTop="12dp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:backgroundTint="#4e40EB"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
